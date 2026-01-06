@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM eclipse-temurin:17-jdk-jammy
 EXPOSE 8080
 ADD target/springboot-images-github-actions.jar springboot-images-github-actions.jar
 ENTRYPOINT ["java" , "-jar","/springboot-images-github-actions.jar"]
