@@ -40,7 +40,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-          image: dockerthotal2/springboot-images-github-actions:latest
+          image: dockerthotal2/springboot-images-github-action
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
