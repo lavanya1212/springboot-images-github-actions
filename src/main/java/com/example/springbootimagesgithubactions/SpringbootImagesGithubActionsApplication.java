@@ -11,7 +11,7 @@ public class SpringbootImagesGithubActionsApplication {
 
     @GetMapping
     public String welcome() {
-        return "Welcome to Spring boot Application build and deployed using GibHub Actions and Docker : ";
+        return "Welcome to Spring boot Application build and deployed using GibHub Actions and Docker : :";
     }
 
     public static void main(String[] args) {
