@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringbootImagesGithubActionsApplication {
 
-    @GetMapping
+    @GetMapping("/welcome")
     public String welcome() {
         return "Welcome to Spring boot Application build and deployed using GibHub Actions and Docker : :";
     }
